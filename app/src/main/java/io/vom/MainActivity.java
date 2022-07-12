@@ -1,4 +1,4 @@
-package io.pomtest;
+package io.vom;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
