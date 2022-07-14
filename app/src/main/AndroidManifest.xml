@@ -10,7 +10,12 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.MyApplication">
         <activity
-                android:name="io.vom.MainActivity"
+                android:name=".HomeActivity"
+                android:exported="true"
+                android:label="@string/title_activity_home"
+                android:theme="@style/Theme.MyApplication.NoActionBar"/>
+        <activity
+                android:name=".MainActivity"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
